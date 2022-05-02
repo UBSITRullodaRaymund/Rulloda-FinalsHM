@@ -54,6 +54,16 @@ body {
     margin: 70px auto;
     line-height:150%;
 }
+
+.time{
+	font-family: 'Archivo', sans-serif;
+    font-size:100px;
+    text-align:justify;
+    max-width: 600px;
+    margin: 70px auto;
+    line-height:150%;
+}
+
         
 #my-timeline {
     font-family: 'Noto Sans JP' , sans-serif;
