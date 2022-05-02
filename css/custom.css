@@ -42,35 +42,28 @@ body {
     font-style: italic;
     font-family:'Times New Roman', sans-serif;
     font-weight: bold;
-    font-size:400px;
+    font-size:16px;
     padding:20px;
 }
+/* codes above are for title/header */
 
+/* codes below are for content */
 .content {
     font-family: 'Archivo', sans-serif;
-    font-size:100px;
+    font-size:16px;
     text-align:justify;
     max-width: 600px;
     margin: 70px auto;
     line-height:150%;
 }
-
-.time{
-	font-family: 'Archivo', sans-serif;
-    font-size:100px;
-    text-align:justify;
-    max-width: 600px;
-    margin: 70px auto;
-    line-height:150%;
-}
-
         
-#my-timeline {
+#tribute-info {
     font-family: 'Noto Sans JP' , sans-serif;
-    text-align: justify; 
-    font-size: 100px;
-    margin-bottom: 20%;
+    text-align: center; 
+    font-size: 30px;
+    margin-bottom: 10%;
 }
+
 ul {
     list-style: none;
     margin: 0px 40px 0px 10px;
@@ -78,7 +71,7 @@ ul {
 /* codes above are for content */
 
 /* codes below are for album */
-.mee {
+.Mee {
     font-family: 'Archivo', cursive; 
     margin-top:100px;
 }
@@ -98,7 +91,7 @@ ul {
         
 .Head {
     float: right;
-    font-size:110px;
+    font-size:100px;
     max-width:25%;
     height:auto;
     padding:20px 50% 20px 5%;
@@ -150,16 +143,68 @@ ul {
 .hoverMe:hover .hoverText{
     display:block;
 }
-*, :before, :after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+        
+/* codes above are for album */
+
+/* codes for footer */
+#tribute-link {
+    color:white;
+    font-family: 'Archivo', sans-serif;
+    font-size:16px;
+    padding:15px;
 }
 
-.container {
-	width: 1200px;
-	margin: 0 auto;
-	padding: 0 15px;
+.foot {
+    background-color: black;
+    height:20px;
+    text-align: center;
+    margin: 0%;
+    padding:15px;
+}
+/* codes for footer */
+a {
+    text-decoration-line: none;
+}
+            
+a:visited {
+    color:darkcyan
+}
+
+@media only screen and (max-width:768px) {
+    .logo {
+        width:20vw;
+        padding:0px;
+    }
+            
+    .headContainer {
+        flex-direction: column;
+        font-size: 6vw;
+    }
+
+    .albumHead {
+        font-size: 7vw;
+    }
+
+    #tribute-info {
+        padding: 30px 0px;
+        margin:5%;
+        line-height:125%;}
+            
+    .thumbnail {
+        width: 150px;
+        height: 210px;
+    }
+
+    .hoverPhoto {
+        width: 100%;
+        height:150px;
+        z-index:1;
+    }
+
+    .caption {
+        font-size: 16px;
+    }
+
 }
 
 .row {
