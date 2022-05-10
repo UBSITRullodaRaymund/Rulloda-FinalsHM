@@ -4,19 +4,23 @@ body {
 }
 
 .headContainer {
+    width: 100%;
+    height: 5%;
+    margin: auto;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
-    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 0px;
+    font-family: "italic";
     font-size: 40px;
     font-weight: 600;
 }
         
 .logo {
+    margin: 15px;
     height:auto;
-    width:15%;
-    padding-right:30px;
+    width:150px;
+    padding-right:40px;
 } 
 
 #image { 
@@ -32,7 +36,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 4px 2px white;
+    box-shadow: 1px 6px 3px white;
     border-radius:1rem;
     text-align: center;
 }
@@ -42,7 +46,7 @@ body {
     font-style: italic;
     font-family:'Times New Roman', sans-serif;
     font-weight: bold;
-    font-size:16px;
+    font-size:20px;
     padding:20px;
 }
 /* codes above are for title/header */
