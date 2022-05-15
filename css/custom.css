@@ -228,7 +228,7 @@ a:visited {
     }
 
 }
-
+/*for page 2 */
 .row {
 	margin: 0 -15px;
 }
@@ -243,7 +243,7 @@ a:visited {
 	clear: both;
 }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-9, .col-10, .col-11, .col-12 {
     float: left;
     padding: 0 15px;
 }
@@ -258,9 +258,6 @@ a:visited {
 }
 .col-9 {
 	width: 75%;
-}
-.col-8 {
-	width: 66.66666667%;
 }
 .col-7 {
 	width: 58.33333333%;
@@ -396,17 +393,6 @@ section * {
 }
 
 
-
-.img-bg {
-	background-image: url(../images/section-bg.jpg);
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	color: #FFF;
-	position: relative;
-}
-
 .img-bg:before {
 	content: '';
 	width: 100%;
@@ -418,35 +404,11 @@ section * {
 	left: 0;
 }
 
-.grey-bg {
-	background-color: #EEE;
-}
-
 #law h4 {
 	font-size: 14px;
 	font-style: italic;
 	font-weight: normal;
 }
-
-
-footer {
-	padding: 1.5rem 0;
-	background-color: #333;
-	color: #FFF;
-}
-
-footer h3 {
-	font-weight: normal;
-}
-
-
-
-
-footer ul {
-	list-style: none;
-	padding: 0;
-}
-
 
 
 #colophon {
@@ -467,4 +429,30 @@ footer ul {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+/*For Certificates*/  
+.card-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .cert-card {
+    width: 500px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(223, 223, 230);
+  }
+  
+  .cert-card>img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cert-card:hover {
+    transform: scale(1.03);
+    box-shadow: 3px 3px 6px black;
   }
