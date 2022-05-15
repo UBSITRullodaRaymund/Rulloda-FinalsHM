@@ -3,4 +3,4 @@ function showMessage(){
     alert("hello " + stringVar)
 }
 
-alert("Hello this is My portfolio. \nYou can dismiss me by clicking in the ok button.")
+alert("Hello and welcome to my portfolio. \nYou can ignore me by clicking the OK button..")
